@@ -1,5 +1,5 @@
 # Unlocking the Dynamics of Online Article Sharing: A Multivariate Regression Exploration"
-This proyect is mainly predicting a future response given historical data.
+This proyect is mainly predicting a future response given historical data.  
 **GOAL**  
 We are trying to predict the "shares" variable, it has a very wide distribution.  
 By conducting a multivariate regression analysis, this analysis seeks to provide insights into the factors that contribute significantly to the variation in the number of shares an article receives. This can help content creators, marketers, or publishers understand what aspects of an article are associated with higher or lower levels of engagement.
