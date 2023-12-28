@@ -1,4 +1,4 @@
-# Unlocking the Dynamics of Online Article Sharing: A Multivariate Regression Exploration"
+# Unlocking the Dynamics of Online Article Sharing: A Multivariate Regression Exploration
 This proyect is mainly predicting a future response given historical data.  
 **GOAL**  
 We are trying to predict the "shares" variable, it has a very wide distribution.  
