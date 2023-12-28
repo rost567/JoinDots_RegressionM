@@ -1,6 +1,6 @@
-# JoinDots_RegressionM
+# Unlocking the Dynamics of Online Article Sharing: A Multivariate Regression Exploration"
 This proyect is mainly predicting a future response given historical data.
-**GOAL**
+**GOAL**  
 We are trying to predict the "shares" variable, it has a very wide distribution.  
 
 1. What is the likelihood that a customer will buy a second product from your website if they bought their first more than 6 months ago?
@@ -23,7 +23,7 @@ Calculating the regression based on:
 4. Determine carefully not just the trend that best fits the data we have, but also, generalizes best to new data.
 
 
-MODEL FITTING AND EVALUATION
+**MODEL FITTING AND EVALUATION**
 From data to decissions - The goal of modelling can be either:  
 First scenario: To predict a future response given historical data.
 Second scenario: Infer the statistical significance and effect of a given variable on an outcome.
@@ -39,7 +39,7 @@ And even the value we are trying to predict, shares, has a very wide distributio
 In this example, it seems reasonable to assume that the residuals of the model we fit for popularity as a function of new item characteristics are independent. In other cases, we might make multiple observations on the same set of entries (as when a given customer appears more than once in a dataset), and these data might be correlated over time (as when records for the same customer are more likely to be correlated when they appear closer together in time). Both situations violate the assumptions of independence between the residuals of a model. In the following sections we will present three methods to deal with these cases.
 
 According to the OLS regression results.
--> R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
+->R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
 
 -> Adjusted R-squared: The adjusted R-squared, which takes into account the number of predictors in the model, is 0.121.
 
