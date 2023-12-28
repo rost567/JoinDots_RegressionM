@@ -39,23 +39,23 @@ And even the value we are trying to predict, shares, has a very wide distributio
 In this example, it seems reasonable to assume that the residuals of the model we fit for popularity as a function of new item characteristics are independent. In other cases, we might make multiple observations on the same set of entries (as when a given customer appears more than once in a dataset), and these data might be correlated over time (as when records for the same customer are more likely to be correlated when they appear closer together in time). Both situations violate the assumptions of independence between the residuals of a model. In the following sections we will present three methods to deal with these cases.
 
 According to the OLS regression results.
-- ** R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
+- R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
 
--> Adjusted R-squared: The adjusted R-squared, which takes into account the number of predictors in the model, is 0.121.
+- Adjusted R-squared: The adjusted R-squared, which takes into account the number of predictors in the model, is 0.121.
 
--> F-statistic: The F-statistic is 98.80, and the associated p-value (Prob (F-statistic)) is very close to zero (0.00). This suggests that the overall model is statistically significant.
+- F-statistic: The F-statistic is 98.80, and the associated p-value (Prob (F-statistic)) is very close to zero (0.00). This suggests that the overall model is statistically significant.
 
--> Coefficients: The table provides coefficients for each independent variable along with standard errors, t-values, and p-values. The coefficients represent the estimated effect of each variable on the dependent variable (shares). The p-values (P>|t|) indicate whether each coefficient is significantly different from zero.
+- Coefficients: The table provides coefficients for each independent variable along with standard errors, t-values, and p-values. The coefficients represent the estimated effect of each variable on the dependent variable (shares). The p-values (P>|t|) indicate whether each coefficient is significantly different from zero.
 
--> Intercept: The intercept is 2.1756, representing the estimated value of the dependent variable when all independent variables are zero.
+- Intercept: The intercept is 2.1756, representing the estimated value of the dependent variable when all independent variables are zero.
 
--> Variable significance: Some variables have p-values less than 0.05 (e.g., timedelta, n_tokens_title, n_tokens_content), suggesting that they are statistically significant predictors of the dependent variable.
+- Variable significance: Some variables have p-values less than 0.05 (e.g., timedelta, n_tokens_title, n_tokens_content), suggesting that they are statistically significant predictors of the dependent variable.
 
--> Multicollinearity warning: The notes section mentions the possibility of strong multicollinearity problems or a singular design matrix. This issue may affect the reliability of individual coefficient estimates.
+- Multicollinearity warning: The notes section mentions the possibility of strong multicollinearity problems or a singular design matrix. This issue may affect the reliability of individual coefficient estimates.
 
--> Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis: These are diagnostic statistics to assess the regression model's assumptions and properties. For example, Jarque-Bera tests the normality of the residuals, and the Durbin-Watson statistic checks for autocorrelation in the residuals.
+- Omnibus, Durbin-Watson, Jarque-Bera, Skew, Kurtosis: These are diagnostic statistics to assess the regression model's assumptions and properties. For example, Jarque-Bera tests the normality of the residuals, and the Durbin-Watson statistic checks for autocorrelation in the residuals.
 
--> Number of Observations and Variables: The model is based on 39,644 observations with 56 variables.
+- Number of Observations and Variables: The model is based on 39,644 observations with 56 variables.
 
 **According to the goal**
 "We are trying to predict the 'shares' variable, it has a very wide distribution"
