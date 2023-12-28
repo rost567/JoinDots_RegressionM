@@ -39,7 +39,7 @@ And even the value we are trying to predict, shares, has a very wide distributio
 In this example, it seems reasonable to assume that the residuals of the model we fit for popularity as a function of new item characteristics are independent. In other cases, we might make multiple observations on the same set of entries (as when a given customer appears more than once in a dataset), and these data might be correlated over time (as when records for the same customer are more likely to be correlated when they appear closer together in time). Both situations violate the assumptions of independence between the residuals of a model. In the following sections we will present three methods to deal with these cases.
 
 According to the OLS regression results.
-->R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
+- ** R-squared: The R-squared value is 0.123, indicating that approximately 12.3% of the variance in the dependent variable (shares) is explained by the independent variables in the model.
 
 -> Adjusted R-squared: The adjusted R-squared, which takes into account the number of predictors in the model, is 0.121.
 
