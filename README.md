@@ -2,7 +2,10 @@
 This proyect is mainly predicting a future response given historical data.
 **GOAL**  
 We are trying to predict the "shares" variable, it has a very wide distribution.  
+By conducting a multivariate regression analysis, this analysis seeks to provide insights into the factors that contribute significantly to the variation in the number of shares an article receives. This can help content creators, marketers, or publishers understand what aspects of an article are associated with higher or lower levels of engagement.
+So to understand and predict the number of shares for online articles. This is achieved through a multivariate regression analysis that considers various features or independent variables associated with each article. The project aims to uncover insights into the factors influencing the popularity of online articles and to develop a predictive model that can effectively estimate the number of shares based on these features. The analysis may also involve evaluating the performance of the regression model and exploring the relationships between the dependent variable ('shares') and multiple independent variables. 
 
+**INTRODUCTION**
 1. What is the likelihood that a customer will buy a second product from your website if they bought their first more than 6 months ago?
 2. Trend line is a common feature of many business analyses.
 3. How much do purchases increase when ads are shown more often on a homepage?
@@ -57,7 +60,7 @@ According to the OLS regression results.
 
 - Number of Observations and Variables: The model is based on 39,644 observations with 56 variables.
 
-**To sum it up according to the goal**
+**TO SUM IT UP ACCORDING TO THE GOAL**
 "We are trying to predict the 'shares' variable, it has a very wide distribution"
 - Model Fit Considerations: The wide distribution of the 'shares' variable may indicate heteroscedasticity, where the variance of the errors is not constant across all levels of the independent variables. This can impact the efficiency and reliability of the regression estimates.
 
