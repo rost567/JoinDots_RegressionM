@@ -57,35 +57,21 @@ According to the OLS regression results.
 
 - Number of Observations and Variables: The model is based on 39,644 observations with 56 variables.
 
-**According to the goal**
+**To sum it up according to the goal**
 "We are trying to predict the 'shares' variable, it has a very wide distribution"
--> Model Fit Considerations: The wide distribution of the 'shares' variable may indicate heteroscedasticity, where the variance of the errors is not constant across all levels of the independent variables. This can impact the efficiency and reliability of the regression estimates.
+- Model Fit Considerations: The wide distribution of the 'shares' variable may indicate heteroscedasticity, where the variance of the errors is not constant across all levels of the independent variables. This can impact the efficiency and reliability of the regression estimates.
 
--> Outliers and Skewness: The wide distribution could be indicative of outliers or a skewed distribution of the 'shares' variable. Outliers can disproportionately influence the regression model, and skewed distributions may violate the assumption of normality in the residuals.
+- Outliers and Skewness: The wide distribution could be indicative of outliers or a skewed distribution of the 'shares' variable. Outliers can disproportionately influence the regression model, and skewed distributions may violate the assumption of normality in the residuals.
 
--> Transformation Possibilities: Depending on the nature of the distribution, it might be beneficial to explore data transformations (e.g., logarithmic or power transformations) to stabilize variance or address skewness.
+- Transformation Possibilities: Depending on the nature of the distribution, it might be beneficial to explore data transformations (e.g., logarithmic or power transformations) to stabilize variance or address skewness.
 
--> Model Interpretation: In the presence of a wide distribution, interpreting the coefficients becomes more nuanced. The effect of an independent variable may vary across different levels of the 'shares' variable, and the linear model may not capture these nuances adequately.
+- Model Interpretation: In the presence of a wide distribution, interpreting the coefficients becomes more nuanced. The effect of an independent variable may vary across different levels of the 'shares' variable, and the linear model may not capture these nuances adequately.
 
--> Consideration of Model Assumptions: The assumptions of linear regression, such as homoscedasticity, normality of residuals, and linearity, should be carefully assessed. Residual analysis and diagnostic tests can provide insights into the model's performance.
+- Consideration of Model Assumptions: The assumptions of linear regression, such as homoscedasticity, normality of residuals, and linearity, should be carefully assessed. Residual analysis and diagnostic tests can provide insights into the model's performance.
 
--> Potential Influential Observations: The wide distribution might indicate the presence of influential observations that disproportionately affect the model. Investigating influential data points and their impact on the results is crucial.
+- Potential Influential Observations: The wide distribution might indicate the presence of influential observations that disproportionately affect the model. Investigating influential data points and their impact on the results is crucial.
 
--> Predictive Challenges: Predicting a variable with a wide distribution may pose challenges, as the model needs to account for the variability in the outcome variable. This emphasizes the importance of model evaluation metrics and the need for alternative modeling approaches if linear regression proves insufficient.
-
-In summary, the wide distribution of the 'shares' variable highlights the need for a careful examination of the regression model's assumptions, potential transformations, and consideration of the data's characteristics to ensure the model's validity and effectiveness in predicting the outcome.
-
-
-
-
-
-
-
-
-
-
-
-
+- Predictive Challenges: Predicting a variable with a wide distribution may pose challenges, as the model needs to account for the variability in the outcome variable. This emphasizes the importance of model evaluation metrics and the need for alternative modeling approaches if linear regression proves insufficient.
 
 
 This is based in the curiosity of how to join dots or clustering with Regression Models, it is a first version, currently working on it. Taking notes based on the book  "Python: Advanced Predictive Analytics" by Ashish Kumar, Joseph Babcock.
